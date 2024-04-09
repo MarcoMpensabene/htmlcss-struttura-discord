@@ -30,7 +30,11 @@ a{
 
 }
 
-button{
-    display: inline-block;
+.button-head{
+    display: flex;
+    flex-direction: row;
 }
 
+.button-head>button{
+    margin: 1rem 2rem 1rem;
+}

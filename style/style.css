@@ -38,3 +38,18 @@ a{
 .button-head>button{
     margin: 1rem 2rem 1rem;
 }
+
+.main-box{
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+}
+.info-section{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    justify-content: center;
+    padding: 3rem;
+    align-content: space-between;
+
+}

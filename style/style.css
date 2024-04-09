@@ -53,3 +53,16 @@ a{
     align-content: space-between;
 
 }
+.section-column{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 3rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1,
+h2{
+    margin-bottom: 1.5rem;
+}

@@ -70,28 +70,24 @@ h2{
 .foot-box{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 2rem;
-    border-bottom: 1px solid blue;
+    background-color: azure;
+    margin: 0 auto;
 }
 
 .list-box{
     display: flex;
     flex-direction: row;
-
-
 }
+
 .info-box{
     margin-left: 2rem;
 }
 
-
-
-
-
-
-ul{
-    margin-right: 8rem;
+ul
+{
+    margin-right: 6rem;
     list-style: none;
 
 }
@@ -105,4 +101,8 @@ li{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 1rem 0 1rem;
+    border-top: 1px solid blue;
+    margin: 0 10rem 0;
 }
+

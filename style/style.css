@@ -66,3 +66,43 @@ h1,
 h2{
     margin-bottom: 1.5rem;
 }
+
+.foot-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+    border-bottom: 1px solid blue;
+}
+
+.list-box{
+    display: flex;
+    flex-direction: row;
+
+
+}
+.info-box{
+    margin-left: 2rem;
+}
+
+
+
+
+
+
+ul{
+    margin-right: 8rem;
+    list-style: none;
+
+}
+
+ul,
+li{
+    margin-bottom: 1rem;
+}
+
+.nav-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
